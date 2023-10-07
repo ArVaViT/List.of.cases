@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+/* Стиль для зроблених справ (зелений колір) */
+li.completed {
+  text-decoration: line-through;
+  color: green;
+}
+
+/* Стиль для незроблених справ (червоний колір) */
+li:not(.completed) {
+  color: red;
+}
+
+/* Стиль для загальної кількості справ */
+.total-count {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Стиль для кількості незроблених справ */
+.incomplete-count {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Стиль заголовка */
+h1 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Стиль для контейнера */
+.App {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стиль для вводу тексту */
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* ширина обволоки */
+  border-radius: 40px;
+  margin-bottom: 10px;
+}
+
+/* Стиль для кнопки "Додати" */
+button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Стиль для заголовків списку */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Стиль для кожної задачі */
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+/* Стиль для зроблених справ */
+li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Стиль для кнопки "Видалити" */
+li button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0 10px;
+  cursor: pointer;
+  flex-shrink: 0;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Стиль для загальної кількості справ і кількості незроблених справ */
+.total-count,
+.incomplete-count {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  color: #555;
+}
+
+
